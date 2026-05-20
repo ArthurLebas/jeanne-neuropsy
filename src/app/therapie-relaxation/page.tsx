@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import RevealOnScroll from "@/components/RevealOnScroll";
+import WaveDivider from "@/components/WaveDivider";
 
 export const metadata: Metadata = {
   title: "Thérapie de relaxation | Jeanne Gontier Neuropsychologue",
@@ -11,7 +12,7 @@ export default function RelaxationPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative bg-gradient-to-b from-sand-light to-white pt-28 pb-20 lg:pt-36 lg:pb-28 overflow-hidden">
+      <section className="relative bg-gradient-to-b from-sand to-sand-light pt-28 pb-20 lg:pt-36 lg:pb-28 overflow-hidden">
         <div className="absolute top-10 right-10 w-72 h-72 bg-sand/40 rounded-full blur-3xl" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-sky/20 rounded-full blur-3xl" />
 
@@ -34,6 +35,8 @@ export default function RelaxationPage() {
           </div>
         </div>
       </section>
+
+      <WaveDivider topColor="var(--color-sand-light)" bottomColor="#ffffff" variant={9} />
 
       {/* L'intérêt du mouvement */}
       <section className="py-20 lg:py-28 bg-white">
@@ -81,6 +84,8 @@ export default function RelaxationPage() {
           </RevealOnScroll>
         </div>
       </section>
+
+      <WaveDivider topColor="#ffffff" bottomColor="var(--color-sand-light)" variant={10} />
 
       {/* L'intérêt de la méditation */}
       <section className="py-20 lg:py-28 bg-sand-light">

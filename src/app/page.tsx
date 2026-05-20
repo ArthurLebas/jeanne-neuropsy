@@ -1,4 +1,5 @@
 import RevealOnScroll from "@/components/RevealOnScroll";
+import WaveDivider from "@/components/WaveDivider";
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       {/* ===== HERO ===== */}
       <section
         id="hero"
-        className="relative min-h-[85vh] flex items-center justify-center bg-gradient-to-b from-sky-light via-sky/40 to-sand-light overflow-hidden"
+        className="relative min-h-[85vh] flex items-center justify-center bg-gradient-to-b from-sky-light via-sky/40 to-sky-light overflow-hidden"
       >
         {/* Decorative circles */}
         <div className="absolute top-20 right-10 w-72 h-72 bg-sky/30 rounded-full blur-3xl" />
@@ -38,6 +39,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <WaveDivider topColor="var(--color-sky-light)" bottomColor="var(--color-sand-light)" variant={1} />
 
       {/* ===== À PROPOS ===== */}
       <section id="a-propos" className="py-20 lg:py-28 bg-sand-light">
@@ -111,6 +114,8 @@ export default function Home() {
         </div>
       </section>
 
+      <WaveDivider topColor="var(--color-sand-light)" bottomColor="#ffffff" variant={2} />
+
       {/* ===== POURQUOI FAIRE UN BILAN ===== */}
       <section id="bilan" className="py-20 lg:py-28 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -136,6 +141,8 @@ export default function Home() {
           </RevealOnScroll>
         </div>
       </section>
+
+      <WaveDivider topColor="#ffffff" bottomColor="var(--color-sky-light)" variant={3} />
 
       {/* ===== DÉROULEMENT ===== */}
       <section className="py-20 lg:py-28 bg-gradient-to-b from-sky-light to-white">
@@ -223,6 +230,8 @@ export default function Home() {
         </div>
       </section>
 
+      <WaveDivider topColor="#ffffff" bottomColor="var(--color-sand-light)" variant={4} />
+
       {/* ===== PRISES EN CHARGE ===== */}
       <section id="prises-en-charge" className="py-20 lg:py-28 bg-sand-light">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -294,6 +303,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <WaveDivider topColor="var(--color-sand-light)" bottomColor="var(--color-teal-dark)" variant={5} />
 
       {/* ===== TARIFS ===== */}
       <section
@@ -367,6 +378,8 @@ export default function Home() {
           </RevealOnScroll>
         </div>
       </section>
+
+      <WaveDivider topColor="var(--color-teal-dark)" bottomColor="#ffffff" variant={6} />
 
       {/* ===== CONTACT ===== */}
       <section id="contact" className="py-20 lg:py-28 bg-white">

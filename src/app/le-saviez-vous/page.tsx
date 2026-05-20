@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import RevealOnScroll from "@/components/RevealOnScroll";
+import WaveDivider from "@/components/WaveDivider";
 
 export const metadata: Metadata = {
   title: "Qu'est-ce que le TDA/H ? | Jeanne Gontier Neuropsychologue",
@@ -39,6 +40,8 @@ export default function TDAHPage() {
           </div>
         </div>
       </section>
+
+      <WaveDivider topColor="var(--color-teal-dark)" bottomColor="#ffffff" variant={7} />
 
       {/* Symptoms */}
       <section className="py-20 lg:py-28 bg-white">
@@ -124,6 +127,8 @@ export default function TDAHPage() {
           </RevealOnScroll>
         </div>
       </section>
+
+      <WaveDivider topColor="#ffffff" bottomColor="var(--color-sand-light)" variant={8} />
 
       {/* 3 forms */}
       <section className="py-20 lg:py-28 bg-sand-light">
