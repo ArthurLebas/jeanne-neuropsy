@@ -1,3 +1,4 @@
+import Image from "next/image";
 import RevealOnScroll from "@/components/RevealOnScroll";
 import WaveDivider from "@/components/WaveDivider";
 
@@ -19,7 +20,7 @@ export default function Home() {
           </h1>
           <div className="mt-8 space-y-4 text-text-light text-base sm:text-lg leading-relaxed animate-fade-up animate-delay-200">
             <p>
-              <strong className="text-text">Bilan</strong> intellectuel et
+              Bilan intellectuel et
               attentionnel chez l&apos;enfant à partir de 6 ans (attention je ne
               propose pas de bilan TSA), dépistage dyscalculie.
             </p>
@@ -87,9 +88,7 @@ export default function Home() {
                     encore avec des techniques corporelles autour du yoga. Ces
                     techniques permettent d&apos;apaiser le mental, les émotions
                     et le corps. Ainsi que des suivis basés sur la{" "}
-                    <strong className="text-text">
-                      Thérapie d&apos;Acceptation et d&apos;Engagement (ACT)
-                    </strong>
+                    Thérapie d&apos;Acceptation et d&apos;Engagement (ACT)
                     . L&apos;objectif est d&apos;apprendre à faire face aux
                     événements de la vie en acceptant ce qui est au delà de
                     votre contrôle, tout en vous engageant dans des actes qui
@@ -101,12 +100,15 @@ export default function Home() {
 
             <div className="lg:col-span-2 flex justify-center">
               <RevealOnScroll delay={200}>
-                <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full bg-gradient-to-br from-sky to-sand flex items-center justify-center shadow-xl">
-                  <div className="w-60 h-60 lg:w-76 lg:h-76 rounded-full bg-white/60 backdrop-blur-sm flex items-center justify-center">
-                    <span className="font-heading text-teal-dark text-5xl lg:text-6xl">
-                      JG
-                    </span>
-                  </div>
+                <div className="w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-white p-6 sm:p-8 lg:p-10 drop-shadow-lg">
+                  <Image
+                    src="/logo-JG.png"
+                    alt="Jeanne Gontier - Psychologue spécialisée en neuropsychologie"
+                    width={1254}
+                    height={1254}
+                    className="w-full h-full object-contain rounded-full"
+                    priority={false}
+                  />
                 </div>
               </RevealOnScroll>
             </div>
@@ -303,9 +305,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <WaveDivider topColor="var(--color-sand-light)" bottomColor="var(--color-teal-dark)" variant={5} />
-
+      
       {/* ===== TARIFS ===== */}
       <section
         id="tarifs"
@@ -378,9 +378,7 @@ export default function Home() {
           </RevealOnScroll>
         </div>
       </section>
-
-      <WaveDivider topColor="var(--color-teal-dark)" bottomColor="#ffffff" variant={6} />
-
+      
       {/* ===== CONTACT ===== */}
       <section id="contact" className="py-20 lg:py-28 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -390,51 +388,53 @@ export default function Home() {
             </h2>
           </RevealOnScroll>
 
+          <RevealOnScroll>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-12">
+              <div>
+                <h3 className="font-heading text-lg text-teal-dark mb-2">
+                  Adresse
+                </h3>
+                <p className="text-text-light text-sm">
+                  35 quai du Pré Long
+                  <br />
+                  Lagny sur Marne 77400
+                </p>
+              </div>
+              <div>
+                <h3 className="font-heading text-lg text-teal-dark mb-2">
+                  Contact
+                </h3>
+                <p className="text-text-light text-sm">
+                  <a
+                    href="tel:0656666314"
+                    className="hover:text-teal transition-colors"
+                  >
+                    06 56 66 63 14
+                  </a>
+                  <br />
+                  <a
+                    href="mailto:jeanne.neuropsy@gmail.com"
+                    className="hover:text-teal transition-colors"
+                  >
+                    jeanne.neuropsy@gmail.com
+                  </a>
+                </p>
+              </div>
+              <div>
+                <h3 className="font-heading text-lg text-teal-dark mb-2">
+                  Heures d&apos;ouverture
+                </h3>
+                <p className="text-text-light text-sm">
+                  Mercredi
+                  <br />9 h30 - 17 h30
+                </p>
+              </div>
+            </div>
+          </RevealOnScroll>
+
           <div className="grid lg:grid-cols-2 gap-12">
             <RevealOnScroll>
               <div className="space-y-8">
-                <div className="grid sm:grid-cols-3 gap-8">
-                  <div>
-                    <h3 className="font-heading text-lg text-teal-dark mb-2">
-                      Adresse
-                    </h3>
-                    <p className="text-text-light text-sm">
-                      35 quai du Pré Long
-                      <br />
-                      Lagny sur Marne 77400
-                    </p>
-                  </div>
-                  <div>
-                    <h3 className="font-heading text-lg text-teal-dark mb-2">
-                      Contact
-                    </h3>
-                    <p className="text-text-light text-sm">
-                      <a
-                        href="tel:0656666314"
-                        className="hover:text-teal transition-colors"
-                      >
-                        06 56 66 63 14
-                      </a>
-                      <br />
-                      <a
-                        href="mailto:jeanne.neuropsy@gmail.com"
-                        className="hover:text-teal transition-colors"
-                      >
-                        jeanne.neuropsy@gmail.com
-                      </a>
-                    </p>
-                  </div>
-                  <div>
-                    <h3 className="font-heading text-lg text-teal-dark mb-2">
-                      Heures d&apos;ouverture
-                    </h3>
-                    <p className="text-text-light text-sm">
-                      Mercredi
-                      <br />9 h30 - 17 h30
-                    </p>
-                  </div>
-                </div>
-
                 <div className="text-sm text-text-light space-y-4">
                   <p className="inline-block bg-amber-light/50 text-amber-dark px-4 py-2 rounded-lg font-medium">
                     Cabinet LGBTQIA+ friendly
