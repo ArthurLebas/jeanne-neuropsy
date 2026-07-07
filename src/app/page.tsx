@@ -25,9 +25,8 @@ export default function Home() {
               propose pas de bilan TSA), dépistage dyscalculie.
             </p>
             <p>
-              Pour l&apos;adulte : thérapie de relaxation et pleine conscience,
-              accompagnement vers une meilleure compréhension de son
-              fonctionnement cognitif et émotionnel.
+              Pour l&apos;adulte : thérapie de relaxation et pleine conscience via des espaces de
+              relaxation mêlant méditation guidée et mouvements de yoga
             </p>
           </div>
           <div className="mt-10 animate-fade-up animate-delay-300">
@@ -63,14 +62,12 @@ export default function Home() {
                     J&apos;ai réalisé un master en Neuropsychologie et
                     neuro-imageries cognitives à l&apos;université de Bordeaux,
                     puis un Diplôme Universitaire à la faculté de médecine de la
-                    Sorbonne sur les Troubles du Neurodéveloppement. Par la
-                    suite, j&apos;ai participé à plusieurs formations de yoga et
-                    de méditation auprès de Anaïs Varnier.
+                    Sorbonne sur les Troubles du Neurodéveloppement.
                   </p>
                   <p>
                     Depuis 2022, je travaille avec des enfants dans un Centre
-                    Médico-Psychologique, et au sein de l&apos;association
-                    OnCogite pour des adultes en post traitements oncologiques.
+                    Médico-Psychologique, et auprès de l'association OnCogite pour 
+                    des adultes en post traitements oncologiques.
                   </p>
                   <p>
                     Au sein de mon cabinet, j&apos;accueille les enfants, les
@@ -83,16 +80,14 @@ export default function Home() {
                     lecture...), de difficulté de régulation émotionnelle etc...
                   </p>
                   <p>
-                    Je propose également des suivis thérapeutiques à travers des
-                    espaces de relaxations : pleine conscience, méditation ou
-                    encore avec des techniques corporelles autour du yoga. Ces
-                    techniques permettent d&apos;apaiser le mental, les émotions
-                    et le corps. Ainsi que des suivis basés sur la{" "}
-                    Thérapie d&apos;Acceptation et d&apos;Engagement (ACT)
-                    . L&apos;objectif est d&apos;apprendre à faire face aux
-                    événements de la vie en acceptant ce qui est au delà de
-                    votre contrôle, tout en vous engageant dans des actes qui
-                    sont en adéquations avec vos valeurs.
+                    Après plusieurs formation auprès de Anaïs Varnier et de Soma Yogathérapie,
+                    je propose également des suivis thérapeutiques à travers des espaces de
+                    relaxations : pleine conscience, méditation ou encore avec des techniques
+                    corporelles autour du yoga. Ces techniques permettent d'apaiser le mental,
+                    les émotions et le corps. Ainsi que des suivis basés sur la Thérapie d'Acceptation
+                    et d'Engagement (ACT). L'objectif est d'apprendre à faire face aux événements de la
+                    vie en acceptant ce qui est au delà de votre contrôle, tout en vous engageant dans
+                    des actes qui sont en adéquations avec vos valeurs.
                   </p>
                 </div>
               </RevealOnScroll>
@@ -128,17 +123,13 @@ export default function Home() {
           </RevealOnScroll>
           <RevealOnScroll delay={100}>
             <p className="text-text-light leading-relaxed text-center text-lg">
-              Un bilan neuropsychologique est recommandé lorsque l&apos;enfant ou
-              l&apos;adolescent, rencontre des difficultés dans son
-              fonctionnement au quotidien (à l&apos;école, à la maison).
-              L&apos;objectif est de donner un éclairage sur le fonctionnement
-              cognitif afin de l&apos;orienter vers des prises en charges
-              adaptées. Il permet de détecter les points forts et les difficultés
-              de la personne afin de proposer des recommandations
-              individualisées, destinées aux parents, aux professionnels médicaux
-              et paramédicaux qui accompagnent l&apos;enfant mais aussi aux
-              enseignants (suggestions d&apos;aménagements pédagogiques
-              adaptés).
+              Un bilan neuropsychologique est recommandé lorsque l’enfant ou l’adolescent,
+              rencontre des difficultés dans son fonctionnement au quotidien (à l’école, à la maison).
+              L’objectif est de donner un éclairage sur le fonctionnement cognitif afin de l’orienter
+              vers des prises en charges adaptées. Il permet de détecter les points forts et les
+              difficultés de la personne afin de proposer des recommandations individualisées,
+              destinées aux parents, aux professionnels médicaux et paramédicaux qui accompagnent
+              l'enfant mais aussi aux enseignants (suggestions d’aménagements pédagogiques adaptés).
             </p>
           </RevealOnScroll>
         </div>
@@ -251,12 +242,13 @@ export default function Home() {
                   Remédiation cognitive et psychoéducation
                 </h3>
                 <p className="text-text-light leading-relaxed">
-                  La remédiation cognitive est l&apos;entrainement des fonctions
-                  cognitives fragiles ou déficitaires, en groupe ou en
-                  individuel, via des activités comme des exercices ou des jeux
-                  de sociétés. Ici, accompagnée de psychoéducation, elle permet
-                  une meilleure compréhension du trouble afin d&apos;adapter au
-                  mieux son quotidien et d&apos;améliorer sa qualité de vie.
+                  La remédiation cognitive est l'entrainement
+                  des fonctions cognitives fragiles ou déficitaires,
+                  en groupe ou en individuel, via des activités comme
+                  des exercices ou des jeux de sociétés. Ici, accompagnée
+                  de psychoéducation, elle permet une meilleure compréhension
+                  du trouble afin d'adapter au mieux son quotidien et
+                  d'améliorer sa qualité de vie.
                 </p>
               </div>
             </RevealOnScroll>
@@ -269,15 +261,16 @@ export default function Home() {
                 </h3>
                 <div className="text-text-light leading-relaxed space-y-4">
                   <p>
-                    Je propose des espaces de relaxation mêlant méditation guidée
-                    et mouvements de yoga. Il s&apos;agit de mouvement doux, et
-                    accessibles, inspirés du yoga restauratif et du yin yoga. Ces
-                    exercices permettent d&apos;apprendre à se détendre, à lâcher
-                    prise ; de rééquilibrer la balance entre système sympathique
-                    et parasympathique ; ainsi que de conscientiser son corps. Ce
-                    type de pratique peut être bénéfique pour l&apos;anxiété, les
-                    troubles du sommeil, et pour entrainer ses capacités
-                    attentionnelles.
+                    Je propose des espaces de relaxation mêlant
+                    méditation guidée et mouvements de yoga. 
+                    Il s'agit de mouvement doux, et accessibles,
+                    inspirés du yoga restauratif et du yin yoga.
+                    Ces exercices permettent d'apprendre à se détendre,
+                    à lâcher prise ; de rééquilibrer la balance entre
+                    système sympathique et parasympathique ; ainsi que
+                    de conscientiser son corps. Ce type de pratique peut
+                    être bénéfique pour l'anxiété, les troubles du sommeil,
+                    et pour entrainer ses capacités attentionnelles.
                   </p>
                   <p>
                     Cette approche est non dogmatique, et non spirituelle. Elle
